@@ -1,0 +1,54 @@
+{
+  "n_train": 712,
+  "n_test": 179,
+  "train_rate": 38.3,
+  "test_rate": 38.5,
+  "dropna_n": 573,
+  "derived_rate": {
+    "AgeGroup": {
+      "Child": 58.0,
+      "Teen": 41.1,
+      "Young": 37.3,
+      "Middle": 41.4,
+      "Senior": 26.9
+    },
+    "FamilySize": {
+      "1": 30.4,
+      "2": 55.3,
+      "3": 57.8,
+      "4": 72.4,
+      "5": 20.0,
+      "6": 13.6,
+      "7": 33.3,
+      "8": 0.0,
+      "11": 0.0
+    },
+    "FarePerPersonGroup": {
+      "하위 25%": 26.5,
+      "25~50%": 25.5,
+      "50~75%": 40.8,
+      "상위 25%": 60.8
+    }
+  },
+  "N_onehot": 8,
+  "N_label": 5,
+  "n_feat_onehot": 17,
+  "n_feat_label": 10,
+  "selected_onehot": [
+    "Age",
+    "FarePerPerson",
+    "Fare",
+    "Sex_male",
+    "Sex_female",
+    "Pclass",
+    "FamilySize",
+    "SibSp"
+  ],
+  "selected_label": [
+    "Sex",
+    "Age",
+    "FarePerPerson",
+    "Fare",
+    "Pclass"
+  ]
+}

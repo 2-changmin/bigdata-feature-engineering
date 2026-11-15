@@ -1,0 +1,49 @@
+{
+  "shape": [
+    891,
+    12
+  ],
+  "missing": {
+    "Cabin": 77.1,
+    "Age": 19.87,
+    "Embarked": 0.22
+  },
+  "target": {
+    "0": 549,
+    "1": 342
+  },
+  "skew": {
+    "Age": 0.39,
+    "Fare": 4.79,
+    "SibSp": 3.7,
+    "Parch": 2.75
+  },
+  "corr_target": {
+    "Pclass": -0.338,
+    "Sex": -0.543,
+    "Age": -0.077,
+    "SibSp": -0.035,
+    "Parch": 0.082,
+    "Fare": 0.257
+  },
+  "survival_rate": {
+    "Sex": {
+      "female": 74.2,
+      "male": 18.9
+    },
+    "Pclass": {
+      "1": 63.0,
+      "2": 47.3,
+      "3": 24.2
+    },
+    "Embarked": {
+      "C": 55.4,
+      "Q": 39.0,
+      "S": 33.7
+    }
+  },
+  "age_missing_survival": 29.4,
+  "age_notna_survival": 40.6,
+  "fare_zero": 15,
+  "duplicated": 0
+}

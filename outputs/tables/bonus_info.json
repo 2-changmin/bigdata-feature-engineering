@@ -1,0 +1,19 @@
+{
+  "rank_corr": {
+    "impurity": {
+      "impurity": 1.0,
+      "perm": 0.699,
+      "shap": 0.958
+    },
+    "perm": {
+      "impurity": 0.699,
+      "perm": 1.0,
+      "shap": 0.674
+    },
+    "shap": {
+      "impurity": 0.958,
+      "perm": 0.674,
+      "shap": 1.0
+    }
+  }
+}
